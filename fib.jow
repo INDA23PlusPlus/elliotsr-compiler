@@ -1,0 +1,8 @@
+MAIN:
+    a = 1;
+    b = 1;
+    FIB:
+        c = (a + b);
+        a = b;
+        b = c;
+        > FIB;
